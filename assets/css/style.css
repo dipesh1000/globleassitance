@@ -23,8 +23,6 @@ a {
   outline: none;
   color: #444; }
 
-a:hover {
-  color: #444; }
 
 ul {
   margin-bottom: 0;
@@ -622,6 +620,13 @@ header {
 
 .teleconsultant {
   padding: 4em 0;
+  
+    background-color: #FFF;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    background-position: right;
+  
 }
 
 .consultantsingle {
@@ -633,8 +638,9 @@ header {
   }
 }
 
-.teleconsultant .teleconsultant_box  .teleconsultant_content {
-
+.teleconsultant .teleconsultant_box  .teleconsultant_content h3{
+  font-weight: 700;
+  margin-bottom: 25px;
 }
 
 .teleconsultant .teleconsultant_box  .teleconsultant_content ul {
@@ -738,7 +744,7 @@ header {
 
 /* ===================================== About Us Style  ================================== */
 .about-us {
-  background-color: #FFF; }
+   }
   .about-us .join-us-content {
     padding: 30px; }
     .about-us .join-us-content h2 {
@@ -871,7 +877,14 @@ header {
 /* ===================================== About Us Style  ================================== */
 .about-us {
   padding: 50px;
-  background-color: #FFF; }
+}
+  .about-us-wrap {
+    background-color: #FFF;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    background-position: right;
+  }
   @media screen and (max-width: 940px) {
     .about-us {
       padding: 30px 10px; } }
