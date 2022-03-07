@@ -629,6 +629,20 @@ header {
   
 }
 
+.why-choose-us-wrap .why-choose-us .list_item{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.why-choose-us-wrap .why-choose-us .list_item .item_content {
+  margin-left: 15px;
+}
+
+.why-choose-us-wrap .why-choose-us .list_item .item_content h4{ 
+  margin-bottom: 0;
+  line-height: 28px;
+}
+
 .consultantsingle {
   padding: 16em 0 4em 0;
 }
