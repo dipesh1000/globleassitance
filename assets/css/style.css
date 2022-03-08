@@ -264,7 +264,7 @@ header {
         }
     }
   header .logo img {
-    max-width: 171px; 
+    max-width: 173px; 
   }
 
     header .logo img.for-sm {
@@ -301,7 +301,7 @@ header {
 .nav-sectionmk {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   margin-top: 26px;
-  background-color: #0164bd; }
+  background-color: #d4071a; }
   @media screen and (max-width: 767px) {
     .nav-sectionmk {
       margin-top: 4px;
