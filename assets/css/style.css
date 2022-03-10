@@ -318,6 +318,22 @@ body {
 .btn-brand-color {
   background-color: #d4071a;
 }
+.alarm_center {
+  background-color: #efefef;
+  padding: 3em 0;
+}
+.alarm_center .hotline_details {
+  text-align: center;
+}
+.alarm_center .hotline_details h2 {
+  color: #d4071a;
+} 
+.alarm_center .hotline_details .phone_num {
+  color: #0164bd;
+}
+.alarm_center .hotline_details p {
+  font-size: 20px;
+}
 .nav-sectionmk {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   margin-top: 26px;
