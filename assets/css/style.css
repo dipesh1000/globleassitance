@@ -813,7 +813,7 @@ body {
 }
 
 .teleconsultant .teleconsultant_box .teleconsultant_form .button_container {
-  text-align: right;
+  /* text-align: right; */
 }
 
 .teleconsultant .teleconsultant_box .teleconsultant_form .button_container button{
@@ -837,14 +837,16 @@ body {
 .teleconsultant .teleconsultant_box .teleconsultant_form .form_title h1 span{
   color: #0164bd;
 }
-
+.teleconsultant_form .fileinput_custom {
+  width: 100%;
+}
 .teleconsultant_form .fileinput_custom::-webkit-file-upload-button {
   visibility: hidden;
 }
 .teleconsultant_form .fileinput_custom::before {
-  content: 'Select some files';
+  content: 'Attache some files';
   display: inline-block;
-  background: #0164bd;
+  background: #9d9999;
   border-radius: 3px;
   padding: 10px 30px;
   outline: none;
@@ -921,6 +923,13 @@ body {
 .blog {
   background-color: #f7f7f7;
   padding: 50px; }
+  .blog_imagein {
+    height: 226px;
+    overflow: hidden;
+  }
+  .blog_imagein img {
+    
+  }
   @media screen and (max-width: 940px) {
     .blog {
       padding: 30px 10px; } }
