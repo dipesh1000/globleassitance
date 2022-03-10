@@ -242,12 +242,30 @@ body {
     .container {
       padding: 10px 15px; } }
 
-/* ===================================== Header Design CSS ==================================== */
-header {
-  background-color: #FFF;
-  height: 140px;
-  position: absolute;
-  z-index: 999; }
+/* ===================================== main-header Design CSS ==================================== */
+  .top-header {
+    background-color: #0164bd;
+  }
+  .top-header .contact {
+    display: flex;
+    padding: .5em 0;
+    align-items: center;
+    color: #fff;
+    justify-content: flex-end;
+  }
+  .top-header .contact i{
+    padding-right: 5px;
+  }
+  .top-header .contact .address-top {
+    padding-left: 15px;
+  }
+  header {
+    top: 44px;
+    background-color: #FFF;
+    height: 140px;
+    position: absolute;
+    z-index: 999; 
+  }
   @media screen and (max-width: 767px) {
     header {
       height: 82px; }
