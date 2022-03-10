@@ -465,6 +465,84 @@ header {
   float: none;
   margin: auto; }
 
+
+.why-choose-us {
+  padding: 3em 0;
+}
+.why-choose-us .welcome-you-top {
+  text-align: center;
+}
+
+.why-choose-us .welcome-you-top span{
+  margin-bottom: 15px;
+  display: block;
+  color: #0164bd;
+}
+
+.why-choose-us .welcome-you-top h2{ 
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.why-choose-us .welcome-you-top h4{ 
+  /* color: #0164bd; */
+}
+
+.why-choose-us .who-we-are-content {
+  padding-top: 30px;
+}
+
+.why-choose-us .who-we-are-content .who-we-are img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.why-choose-us .who-we-are-content .who-we-are p{
+ text-align: justify;
+}
+
+.why-choose-us .who-we-are-content .who-we-are a{
+  color: #0164bd;
+}
+
+.why-choose-us .who-we-are-content .who-we-are h4 {
+  margin-bottom: 15px;
+  color: #000000;
+}
+.why-choose-us .who-we-are-content .who-we-are h4::before{
+  content: '';
+  width: 10px;
+  margin-right: 10px;
+  height: 19px;
+  background-color: #d4071a;
+  display: inline-block;
+}
+
+.why-choose-us .who-we-are-content .why-choose-us-content h4 {
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.why-choose-us .who-we-are-content .why-choose-us-content h4::before {
+  content: '';
+  width: 10px;
+  margin-right: 10px;
+  height: 19px;
+  background-color: #d4071a;
+  display: inline-block;
+}
+
+.why-choose-us .who-we-are-content .why-choose-us-content li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+    /* color: #0164bd; */
+}
+.why-choose-us .who-we-are-content .why-choose-us-content i{
+  padding-right: 15px;
+  /* color: #0164bd; */
+}
+
 /* =================== Key Features Starts Here =================== */
 .features {
   padding: 50px;
